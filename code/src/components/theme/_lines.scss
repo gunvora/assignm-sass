@@ -1,0 +1,11 @@
+$line-width: 100%;
+$line-height: 1.5px;
+$line-margin-top: 3px;
+$line-border-style: none;
+
+hr {
+  width: $line-width;
+  height: $line-height;
+  margin-top: $line-margin-top;
+  border-style: $line-border-style;
+}

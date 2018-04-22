@@ -1,0 +1,58 @@
+@import "./theme/_theme";
+
+input {
+  border-style: none;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.tab-container-hidden {
+  border-top-right-radius: 10px;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  width: 60px;
+}
+
+.tab-container {
+  padding: 30px 0px;
+}
+
+.tab-destination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.suggested-destination {
+  font-style: italic;
+  padding: 10px 0px 30px 30px;
+}
+
+.order-button_with_line {
+  margin-left: 30px;
+  width: 120px;
+}
+
+.order-button {
+  width: 100%;
+}

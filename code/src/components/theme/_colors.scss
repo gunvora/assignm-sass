@@ -1,0 +1,30 @@
+$norwegian-red: #d81939;
+$norwegian-lightgrey: #e3e3e3;
+$norwegian-darkgrey: #c3c3c3;
+$norwegian-verydarkgrey: #003d50;
+
+.tab-container-hidden {
+  background-color: $norwegian-lightgrey;
+}
+
+.tab-container {
+  background-color: $norwegian-lightgrey;
+}
+
+.tab-destination hr {
+  background: $norwegian-darkgrey;
+  background-color: $norwegian-darkgrey;
+}
+
+.order-button {
+  color: white;
+  background-color: $norwegian-red;
+}
+
+.order-button-line hr {
+    background: $norwegian-verydarkgrey;
+}
+
+.suggested-destination {
+  color: $norwegian-verydarkgrey;
+}
